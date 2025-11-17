@@ -1,8 +1,9 @@
 """
 Sample tests
 """
-from django.test import TestCase, SimpleTestCase
+from django.test import SimpleTestCase
 from .calc import add, subtract
+
 
 class CalcTest(SimpleTestCase):
 
